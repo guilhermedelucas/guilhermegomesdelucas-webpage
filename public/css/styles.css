@@ -132,6 +132,19 @@ font-family: 'Gloria Hallelujah', cursive;
 	margin-top: 50px;
 }
 
+.opacity-social {
+	-webkit-filter: opacity(25%);
+	filter: opacity(25%);
+	transition: .5s all;
+}
+
+.opacity-social:hover {
+	-webkit-filter: opacity(100%);
+	filter: opacity(100%);
+	transition: .5s all;
+}
+
+
 /*///SIDEBAR ANIMATION//*/
 
 .menu-logo {

@@ -47,8 +47,8 @@ export class SideBar extends React.Component{
                     </div>
                 </div>
                 <div>
-                    <img src="/img/linkeding.png" height="40px" width="41px" style={{marginRight: "10px"}}/>
-                    <img src="/img/github.png" height="40px"/>
+                    <a href="https://www.linkedin.com/in/guilhermegomesdelucas/" target="_blank"><img src="/img/linkeding.png" className="opacity-social" height="40px" width="41px" style={{marginRight: "10px"}}/></a>
+                    <a href="https://github.com/guilhermedelucas" target="_blank"><img src="/img/github.png" className="opacity-social" height="40px"/></a>
                 </div>
             </div>
         )

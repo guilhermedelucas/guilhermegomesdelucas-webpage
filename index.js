@@ -5,9 +5,6 @@ if (process.env.NODE_ENV != 'production') {
     app.use(require('./webpack.config.js'));
 }
 
-app.use(function(req, res, next){
-    next();
-});
 app.use(express.static(__dirname + '/public'));
 
 app.get('*', (req, res) => {
